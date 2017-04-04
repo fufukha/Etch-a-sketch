@@ -1,0 +1,59 @@
+body {
+  background-color: #36D7B7;
+  margin: 0;
+}
+
+header {
+  margin: 0 0 100px 0;
+}
+
+h1 {
+  margin: 0;
+  padding: 30px;
+  font-family: 'Bubblegum Sans', san-serif;
+  font-size: 70px;
+ 
+}
+
+#container {
+  width: 600px;
+  height: 400px;
+  margin: 50px auto;
+  padding: 3px 3px 3px 3px;
+  border-radius: 50px;
+  border: 80px solid #CF000F;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -webkit-background-clip: padding-box;
+  box-shadow: inset -3px 3px 0 0 #A62C2A, inset 3px -3px 0 0 #F20012, 10px -2px 0 0 #DB0010, -7px 7px 1px 2px #16A085;
+  -webkit-box-shadow: inset -3px 3px 0 0 #A62C2A, inset 3px -3px 0 0 #DB0010, -7px 7px 1px 2px #16A085;
+  -moz-box-shadow: inset -3px 3px 0 0 #B8312F, inset 3px -2px 0 0 #DB0010, -7px 7px 1px 2px #16A085;
+  background-color: #BDC3C7;
+}
+
+.grid {
+  float: left;
+}
+
+.dial {
+  background-color: #F2F1EF;
+  position: absolute;
+  z-index: 3;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  box-shadow: -3px 3px 4px #B8312F;
+}
+
+.left {
+  margin: 400px 0 0 -60px;
+}
+
+.right {
+  margin-left: 600px;
+  margin-top: 400px;
+}
+
+.sketch {
+  background-color: #2c3e50;
+}
